@@ -1,0 +1,63 @@
+/* Section2.css */
+/* Text Container */
+.additional-text {
+    position: relative;
+    height: 1000px;
+    background: linear-gradient(to bottom right, #000000, #101C20, #02222C, #184755); /* Adjust gradient colors as needed */
+    font-family: 'Lato';
+    color: white;
+    text-align: center;
+  }
+  
+  .text-container {
+    padding-top: 250px
+  }
+  
+  .first-text{
+    font-size: 50px;
+    white-space: nowrap;
+    margin-bottom: 10px; 
+  }
+  .second-text {
+    font-size: 25px;
+    white-space: nowrap;
+    margin-top: -30px;
+    margin-bottom: 10px;
+  }
+  /* Gradient Container For Smart Career Benchmark Text */
+  .gradient-text {
+    background: linear-gradient(to right, #147390, #88CDE1, #A6FBB2);
+    color: transparent;
+    font-size: 70px;
+    padding: 0px 10px;
+    border-radius: 8px;
+    font-family: 'Lato';
+    display: inline-block;
+    background-clip: text;
+  }
+  /* Benchmark Button */
+  .smart-career-benchmark {
+    background: linear-gradient(to right, #106884, #88CDE1);
+    color: white;
+    padding: 25px 45px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 25px;
+    margin-top: 50px;
+  }
+/* Text Below Benchmark Button */
+  .additional-info {
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 100px;
+    line-height: 2;
+  }
+
+  .smart-career-benchmark:hover {
+    background: linear-gradient(to right, #45a049, #147390, #88CDE1, #A6FBB2);
+    color: white;
+  }  
+  

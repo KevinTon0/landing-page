@@ -1,5 +1,51 @@
 .App {
   text-align: center;
+  height: 100vh;
+  overflow-y: auto;
+}
+/* Navigation Bar Container */
+.navbar {
+  background-color: #090909;
+  overflow: hidden;
+  padding: 29px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-title {
+  font-family: 'Orbitron';
+  font-size: 30px;
+}
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: white;
+  padding: 14px 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Navigation Bar Button(But Does not Link Anywhere) */
+.navbar-login button {
+  background: linear-gradient(to right, #106884, #88CDE1);
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navbar-login button:hover {
+  background: linear-gradient(to right, #1a579e, #add8e6);
 }
 
 .App-logo {
